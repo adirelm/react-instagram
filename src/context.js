@@ -7,7 +7,7 @@ const searchUrl = `https://api.unsplash.com/search/photos/`;
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
-  const [query, setQuery] = useState("Search...");
+  const [query, setQuery] = useState("nature");
   const [photos, setPhotos] = useState([]);
   const [page, setPage] = useState(1);
 

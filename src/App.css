@@ -487,6 +487,7 @@ aside img {
   #page-container {
     width: 100vw;
     margin: 0;
+    border: none;
   }
 
   #page-container ul li {
@@ -499,6 +500,11 @@ aside img {
   }
 
   /* Story */
+
+  .story {
+    height: 8vh;
+  }
+
   .story .story-img {
     width: 50px;
     height: 50px;
