@@ -204,6 +204,14 @@ aside {
   margin-top: 50px;
 }
 
+.profile img {
+  border-radius: 50%;
+}
+
+.suggestions img {
+  border-radius: 50%;
+}
+
 aside img {
   width: 70px;
 }
