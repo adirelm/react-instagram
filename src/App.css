@@ -429,6 +429,7 @@ aside img {
   #navbar-showcase {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 7px;
     max-width: 500px;
   }
@@ -437,8 +438,13 @@ aside img {
     max-width: 100vw;
   }
 
-  #search {
+  #icons {
     display: none;
+  }
+
+  #search {
+    width: 45%;
+    margin-bottom: 5px;
   }
 
   /* Page container */
@@ -508,6 +514,10 @@ aside img {
     width: 100%;
     border-radius: 5px;
     max-width: 100vw;
+  }
+
+  #post .post-upper {
+    margin-bottom: 10px;
   }
 
   .post-img {
