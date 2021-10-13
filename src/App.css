@@ -502,7 +502,7 @@ aside img {
 
   /* Post */
   #post {
-    position: absolute;
+    position: relative;
     margin-top: 40px;
     border: none;
     width: 100%;
