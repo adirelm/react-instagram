@@ -67,9 +67,10 @@ button:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 5;
   cursor: pointer;
+  filter: blur(10px);
 }
 
 /* Navbar */
@@ -242,6 +243,7 @@ button:hover {
   position: fixed;
   top: 2%;
   right: 2%;
+  color: white;
   z-index: 15;
   cursor: pointer;
 }
