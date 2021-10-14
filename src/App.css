@@ -405,6 +405,16 @@ aside img:hover {
 
 /* Media width */
 
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+  #page-container {
+    margin-left: 35rem;
+  }
+
+  aside {
+    margin-left: 86rem;
+  }
+}
+
 @media screen and (min-width: 2800px) and (min-height: 1250px) {
   #page-container {
     margin-left: 35rem;
