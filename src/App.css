@@ -214,12 +214,7 @@ button:hover {
 /* Story Modal */
 .story-picture {
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 15;
-  top: 10%;
-  left: 20%;
   width: 50rem;
   height: 50rem;
   margin: 0;
@@ -227,6 +222,14 @@ button:hover {
   background: url("./image/React_Native_Logo.png") center center / cover;
   background-size: contain;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
 }
 
 .story-picture img {
@@ -615,8 +618,6 @@ aside img:hover {
   /* Story Modal */
 
   .story-picture {
-    top: 25%;
-    left: 5%;
     width: 20rem;
     height: 20rem;
   }
