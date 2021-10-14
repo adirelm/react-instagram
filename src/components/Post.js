@@ -10,7 +10,6 @@ import {
   faSmile,
   faEllipsisH,
 } from "@fortawesome/free-solid-svg-icons";
-import johndoe from "../image/Johndoe.jpg";
 
 const Post = ({
   urls: { regular },
