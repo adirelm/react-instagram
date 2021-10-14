@@ -27,7 +27,7 @@ const Story = ({ photos }) => {
     setFirstStory(0);
     setLastStory(6);
   };
-  const { setPage } = useGlobalContext();
+  const { setPage, setShowModal, handleModal } = useGlobalContext();
 
   return (
     <div className="story">
@@ -45,6 +45,7 @@ const Story = ({ photos }) => {
                     background: `url('${image.user.profile_image.medium} center center/cover'`,
                   }}
                   className="story-img"
+                  onClick={(e) => handleModal(image.urls.regular)}
                 ></div>
               </div>
               <span>{image.user.username.slice(0, 6)}</span>
