@@ -70,7 +70,7 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 5;
   cursor: pointer;
-  filter: blur(10px);
+  filter: blur(1px);
 }
 
 /* Navbar */
