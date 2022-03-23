@@ -91,7 +91,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li className="github">
-                        <a href="https://github.com/adir4455" target="_blank">
+                        <a href="https://github.com/adirelm" target="_blank">
                           <FontAwesomeIcon icon={faGithub} />
                         </a>
                       </li>
